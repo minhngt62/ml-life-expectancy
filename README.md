@@ -21,51 +21,10 @@ More information about the dataset and the related issues can be found on: [Life
   - `pip install notebook`
   - `pip install sklearn`
 
-- For any member, please create your own directory (your_name, lowercase_underscore) in the repo and put all your work in that directory only (avoid conflict):
+- For any member, suggest creating your own directory (your_name, lowercase_underscore) in the repo and put all your work in that directory only (avoid conflict):
 <p align="center">
  <img src=https://user-images.githubusercontent.com/86721208/164508594-5e09e5d0-789e-4f20-a323-fb8aedeca7ce.png>
 </p>
-
-- For any member, please follow the notebook's setting below:
-  ```
-  # Python ≥3.5 is required
-  import sys
-  assert sys.version_info >= (3, 5)
-
-  # Scikit-Learn ≥0.20 is required
-  import sklearn
-  assert sklearn.__version__ >= "0.20"
-
-  # Common imports
-  import numpy as np
-  import os
-
-  # to make this notebook's output stable across runs
-  np.random.seed(42)
-
-  # To plot pretty figures
-  %matplotlib inline
-  import matplotlib as mpl
-  import matplotlib.pyplot as plt
-  mpl.rc('axes', labelsize=14)
-  mpl.rc('xtick', labelsize=12)
-  mpl.rc('ytick', labelsize=12)
-
-  # Where to save the figures
-  PROJECT_ROOT_DIR = "."
-  USER_ID = ""  # YOUR NAME, lowercase_underscore
-  NOTEBOOK_ID = "ensemble" # CUSTOMIZE YOURSELF, PLEASE STICK WITH lowercase_underscore
-  IMAGES_PATH = os.path.join(PROJECT_ROOT_DIR, USER_ID, "images", NOTEBOOK_ID)
-  os.makedirs(IMAGES_PATH, exist_ok=True)
-  
-  # please use this function to save figure (if you need to save image only)
-  def save_fig(fig_id, tight_layout=True, fig_extension="png", resolution=300):
-      path = os.path.join(IMAGES_PATH, fig_id + "." + fig_extension)
-      print("Saving figure", fig_id)
-      if tight_layout:
-          plt.tight_layout()
-      plt.savefig(path, format=fig_extension, dpi=resolution)
-  ```
 
 # Contributors
 - Nguyễn Tống Minh
