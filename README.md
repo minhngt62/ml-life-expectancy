@@ -13,6 +13,8 @@ Then, we are now participating in exploring this dataset using Machine Learning 
 
 More information about the dataset and the related issues can be found on: [Life Expectancy (WHO)](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?fbclid=IwAR155pP1NyfjMQUfIxPN-s6oD06RWTAX9X0Gv5wkvPdVlUgP__Us2VNxujE).
 
+To review all our work once, please visit report.docx at the root.
+
 # Setup
 - Install Python (over 3.6): https://www.python.org/downloads/
 - Install necessary libraries:
@@ -20,11 +22,7 @@ More information about the dataset and the related issues can be found on: [Life
   - `pip install matplotlib`
   - `pip install notebook`
   - `pip install sklearn`
-
-- For any member, suggest creating your own directory (your_name, lowercase_underscore) in the repo and put all your work in that directory only (avoid conflict):
-<p align="center">
- <img src=https://user-images.githubusercontent.com/86721208/164508594-5e09e5d0-789e-4f20-a323-fb8aedeca7ce.png>
-</p>
+  - `pip install h2o` (For the notebook `01_trees_and_ensembles.ipynb` only)
 
 # Contributors
 - Nguyễn Tống Minh
