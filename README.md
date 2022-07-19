@@ -20,6 +20,7 @@ More information about the dataset and the related issues can be found on: [Life
   - `pip install notebook`
   - `pip install sklearn`
   - `pip install h2o` (For the notebook `01_trees_and_ensembles.ipynb` only)
+  
   After that, if some base components are not installed yet, `numpy` and `scipy` should then be installed by:
   - `pip install numpy`
   - `pip install scipy`
