@@ -6,9 +6,10 @@ The Global Health Observatory (GHO) data repository under World Health Organizat
 
 Since the observations of this dataset are based on different countries, it will be easier for a country to determine the predicting factor which is contributing to lower value of life expectancy. This will help in suggesting a country which area should be given importance in order to efficiently improve the life expectancy of its population.
 
-Then, we are now participating in exploring this dataset using Machine Learning technique in order to deduce the factors that affects the life expectancy the most, then utilizing the information obtained to predict the life expectancy given social and health factors of a area. 
+Then, we are now participating in exploring this dataset using Machine Learning technique in order to deduce the factors that affects the life expectancy the most, then utilizing the information obtained to predict the life expectancy given social and health factors of a area.
 
-More information about the dataset and the related issues can be found on: [Life Expectancy (WHO)](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?fbclid=IwAR155pP1NyfjMQUfIxPN-s6oD06RWTAX9X0Gv5wkvPdVlUgP__Us2VNxujE).
+- More information about the dataset and the related issues can be found on: [Life Expectancy (WHO)](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?fbclid=IwAR155pP1NyfjMQUfIxPN-s6oD06RWTAX9X0Gv5wkvPdVlUgP__Us2VNxujE).
+- Refer to the detailed document of what we have done so far: [`./report/report.pdf`](https://github.com/minhngt62/ml-life-expectancy/blob/main/report/report.pdf)
 
 ---
 ### Setup
