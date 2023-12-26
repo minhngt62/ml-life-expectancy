@@ -18,6 +18,7 @@ Then, we are now participating in exploring this dataset using EDA and ML techni
 - Install necessary libraries to rerun the notebooks:
   - `pip install pandas`
   - `pip install matplotlib`
+  - `pip install seaborn`
   - `pip install notebook`
   - `pip install sklearn`
   - `pip install catboost`(For the notebook `Trees_and_ensembles.ipynb` only)
