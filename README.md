@@ -20,7 +20,7 @@ Then, we are now participating in exploring this dataset using EDA and ML techni
   - `pip install matplotlib`
   - `pip install seaborn`
   - `pip install notebook`
-  - `pip install sklearn`
+  - `pip install scikit-learn`
   - `pip install catboost`(For the notebook `Trees_and_ensembles.ipynb` only)
   - `pip install h2o` (For the notebook `Trees_and_ensembles.ipynb` only)
   
@@ -32,8 +32,8 @@ Then, we are now participating in exploring this dataset using EDA and ML techni
 ### Compile & Run
 - Run Jupyter Notebook from the root of the directory of source code - Reference: [Running the Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html)
 - Open the notebooks you want to rerun and run the desired cells
-  - Some cells will require the other cells to be run first so my suggestion is to run cells sequentailly. Also, if there is something that does not follow the normal sequential run, it is always noted in the head comments of each cell or through text cell with prefix "Caution".
-- For the notebook `Trees_and_ensembles.ipynb` only, we may suggest everyone to run it on google colab (`h2o` installed) since `h2o` can be difficult to be installed and setup manually.
+  - Some cells will require the other cells to be run first so my suggestion is to run cells sequentially. Also, if there is something that does not follow the normal sequential run, it is always noted in the head comments of each cell or through text cell with the prefix "Caution".
+- For the notebook `Trees_and_ensembles.ipynb` only, we may suggest everyone run it on google colab (`h2o` installed) since `h2o` can be difficult to be installed and set up manually.
 
 ---
 ### Contributors
